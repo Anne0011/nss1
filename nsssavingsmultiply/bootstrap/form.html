@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Forms HTML</title>
+<meta name="description" content="CSS Selectors">
+<meta name="author" content="me">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+<form action="form.html" method="Post">
+  <fieldset>
+    <legend> Tell us about yourself</legend>
+
+  <label for="first-name">Enter your first name</label>
+  <input id+"first-name" Type="text" name="first-name"
+  class="input-buffer">
+  <label for="last-name">Enter your last name</label>
+  <input id+"last-name" Type="text" name="last-name" class="input-buffer">
+
+  <label for="email address">Enter your email address</label>
+  <input id="email address" Type="text" name="email address" class="input-buffer">
+</fieldset>
+
+<fieldset>
+  <legend>Give us feedback</legend>
+  <label for="comments"> Comments</label>
+  <textarea id="comments" name="comments" class="input-buffer"></textarea>
+  </fieldset>
+
+  <label for ="feedback-type">Comment Type</label>
+  <select id= "feedback-type" name="type" class="input-buffer">
+  <option>Bug Report</option>
+  <option>Praise</option>
+  <option>Feature Request</option>
+  </select>
+
+
+
+
+<fieldset>
+    <legend>Which product are you using</legend>
+    <input type="radio" name="product-type" value="Word">Word
+    <input type="radio" name="product-type" value="Excel">Excel
+    <input type="radio" name="product-type" value="Powerpoint">Powerpoint
+</fieldset>
+
+
+<fieldset>
+  <legend>What type of customer are you?</legend>
+  <input type="checkbox" name="student" value="student">student
+  <input type="checkbox" name="advance" value="advance">advance
+  <input type="checkbox" name="groundhog" value="groundhog">groundhog
+</fieldset>
+
+
+    <button type="submit">Submit Comments</button>
+</body>
+</html>
